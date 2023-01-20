@@ -4,7 +4,7 @@
 
 
 body {
-    background-color: #f0f5ff;
+    background-color: #e4f0ff;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.25rem;
     color: #2b2a28;
@@ -47,6 +47,12 @@ h1 {
     font-size: 3rem;
 }
 
+.choice-prompt {
+    font-size: 30px;
+    color: #252b65;
+    margin: 50px 0 0 0;
+}
+
 .round-decision>div {
     align-items: center;
     height: 10rem;
@@ -63,15 +69,15 @@ h1 {
     gap: 3rem;
 }
 
-.round-choices>button {
+.round-choices>button, #replay {
     width: 200px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-color: #ffedda;
-    border: 1px solid #d3b99f;
+    border: 1px solid #c88a35;
     border-radius: 20px;
     font-size: 1.5rem;
-    margin: 50px 0;
+    margin: 20px 0;
 }
 
 button:hover {
@@ -80,12 +86,8 @@ button:hover {
 
 
 a {
-    margin: 2rem auto 0.5rem;
     text-decoration: none;
     color: #c88a35;
-    font-size: 1.1rem;
-    margin-top: 1rem;
-    margin-bottom: 0.5;
 }
 
 a:hover {
