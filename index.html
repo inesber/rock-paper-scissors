@@ -5,9 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Rock, Paper, Scissors</title>
 </head>
 <body>
-    <h1>title</h1>
+    <h1>Let's play Rock, Paper, Scissors!</h1>
+    <p>You win a win, if you win</p>
+
+    <div class="game-arena">
+        <div class="player">
+            <p>You</p>
+        </div>
+    
+        <div class="score">
+            <p id="currentScore">0 : 0</p>
+            <p id="result">First to score 5 points wins!</p>
+        </div>
+    
+        <div class="player">
+            <p>Machine</p>
+        </div>
+    </div>
+    
+    <div class="round-selection">
+        <div id="user"></div>
+        <div id="machine"></div>
+    </div>
+    
+    <div class="round-choices">
+        <button type="button" id="rock" class="selection">
+            <img src="#" alt="illustration of rock">
+            <p>Rock</p>
+        </button>
+        <button type="button" id="paper" class="selection">
+            <img src="#" alt="illustration of paper">
+            <p>Paper</p>
+        </button>
+        <button type="button" id="scissors" class="selection">
+            <img src="#" alt="illustration of scissors">
+            <p>Scissors</p>
+        </button>
+    </div>
+
+    <p>Made by Inês | See the code in my
+        <a href="https://github.com/inesber/rock-paper-scissors" target="_blank">GitHub</a>
+    </p>
+    
+    <div id="game-end">
+        <div id="modal">
+            <p id="endResult"></p>
+            <button id="replay">Go again!</button>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
 </body>
 </html>
