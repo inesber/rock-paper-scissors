@@ -1,3 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,400;1,700&display=swap');
 
-/* font-family: 'Josefin Sans', sans-serif;
+/* font-family: 'Josefin Sans', sans-serif; */
+
+
+body {
+    background-color: #f0f5ff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25rem;
+    color: #2b2a28;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 5rem 0 3rem;
+}
+
+
+.content,
+.selection,
+.round-decision,
+.round-choices,
+#modal,
+#overlay {
+    display: flex;
+    justify-content: center;
+}
+
+.game-arena {
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+}
+
+.player {
+    width: 150px;
+}
+
+.score {
+    margin: 0 2.5rem;
+}
+
+#currentScore {
+    font-size: 3rem;
+}
+
+.round-decision>div {
+    align-items: center;
+    height: 10rem;
+    width: 10rem;
+    background-color: #fef8f5;
+    border-style: none;
+    margin: 2rem;
+    display: none;
+}
+
+
+.round-choices {
+    padding: 1rem 2rem;
+    gap: 3rem;
+}
+
+.round-choices>button {
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #ffedda;
+    border: 1px solid #d3b99f;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    margin: 50px 0;
+}
+
+button:hover {
+    box-shadow: 2px 2px 5px #7c90af;
+}
+
+
+a {
+    margin: 2rem auto 0.5rem;
+    text-decoration: none;
+    color: #c88a35;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5;
+}
+
+a:hover {
+    color: #2e2824;
+}
+
+#replay {
+    margin-top: 20px;
+    display: none;
+}
