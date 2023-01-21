@@ -13,8 +13,8 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
-    margin: 5rem 0 3rem;
+    font-size: 2rem;
+    margin: 3rem 0 3rem;
 }
 
 
@@ -51,21 +51,21 @@ h1 {
 .choice-prompt {
     font-size: 30px;
     color: #252b65;
-    margin: 50px 0 0 0;
+    margin: 25px 0 0 0;
 }
 
 .round-decision>div {
     align-items: center;
-    height: 10rem;
-    width: 10rem;
+    height: 8rem;
+    width: 8rem;
     background-color: #e4f0ff;
     border-style: none;
     margin: 2rem;
 }
 
 img {
-    height: 10rem;
-    width: 10rem;
+    height: 8rem;
+    width: 8rem;
 }
 
 .round-choices {
@@ -81,7 +81,7 @@ img {
     border: 1px solid #c88a35;
     border-radius: 20px;
     font-size: 1.5rem;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 button:hover {
