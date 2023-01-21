@@ -30,7 +30,6 @@ paperPlay.addEventListener('click', () => roundProgress('paper'));
 scissorsPlay.addEventListener('click', () => roundProgress('scissors'));
 
 function playRound(playerSelection, computerSelection) {
-
     if (playerSelection === computerSelection) {
         result.textContent = "It's a tie";
     } else {
@@ -64,6 +63,7 @@ function playRound(playerSelection, computerSelection) {
         }
     }
 }
+
 function updateChoice(playerSelection, computerSelection) {
     switch (playerSelection) {
         case 'rock':
@@ -103,8 +103,7 @@ function endOfGame() {
             currentScore.textContent = "You Lost";
         }
     }
-
-
+    
 replay.addEventListener('click', restartGame);
 
 function restartGame() {
