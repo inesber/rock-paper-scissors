@@ -87,7 +87,8 @@ img {
 }
 
 button:hover {
-    box-shadow: 2px 2px 5px #7c90af;
+    box-shadow: 1px 1px 5px #7c90af;
+    background-color: #fce7d2;
 }
 
 
