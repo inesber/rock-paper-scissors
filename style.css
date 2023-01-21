@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,400;1,700&display=swap');
 
-/* font-family: 'Josefin Sans', sans-serif; */
-
-
 body {
     background-color: #e4f0ff;
     font-family: 'Josefin Sans', sans-serif;
@@ -16,7 +13,6 @@ h1 {
     font-size: 2rem;
     margin: 3rem 0 1rem 0;
 }
-
 
 .content,
 .selection,
@@ -90,7 +86,6 @@ button:hover {
     box-shadow: 1px 1px 5px #7c90af;
     background-color: #fce7d2;
 }
-
 
 a {
     text-decoration: none;
